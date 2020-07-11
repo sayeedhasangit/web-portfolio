@@ -8,7 +8,7 @@ h1{
 p{
     color: dimgray;
 }
-.highlightedWord{
+.orangeHighlight{
     color: #ffa500;
 }
 .half-width{
@@ -44,4 +44,31 @@ img{
 .dreamArea{
     background-image: url(img/dream-bg.png);
     background-position: right;
+}
+.boxStyle{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 350px;
+}
+.experienceArea{
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#fullStack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: 696969;
 }
